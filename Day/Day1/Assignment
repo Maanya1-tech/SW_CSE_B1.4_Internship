@@ -6,6 +6,7 @@
     <title>Maanya D V Portfolio</title>
 </head>
 <body>
+    <!-- Portfolio  -->
 
     <!-- Header contains the site title and navigation bar -->
     <header>
@@ -53,8 +54,8 @@
                 <h3>Quick Facts</h3>
                 <ul>
                     <li>Based in Bengaluru, Karnataka</li>
-                    <li>Works with React, Node.js, MongoDB, and Spring Boot</li>
-                    <li>Interested in AI, stock market analysis, and curriculum design</li>
+                    <li>Works with html,css and javascript</li>
+                    <li>Interested in stock market analysis and data analysis </li>
                 </ul>
             </aside>
         </section>
@@ -94,14 +95,13 @@
 
             <article>
                 <header>
-                    <h3>BookMyShow Clone</h3>
+                    <h3>Quora Clone</h3>
                 </header>
                 <p>
-                    A movie ticket booking application built to practice
-                    full stack development concepts and user flows.
+                    A clone of quora using html and CSS. It allows users to ask questions, provide answers, and interact with the community.
                 </p>
                 <p>
-                    Technologies used: HTML, JavaScript, React, Node.js, and MongoDB.
+                    Technologies used: HTML, CSS.
                 </p>
             </article>
 
@@ -173,6 +173,27 @@
             </form>
         </section>
     </main>
+    <section>
+    <br>
+        <!-- Assignment continued -->
+    <div class="project-card">
+        <h3>Task Manager</h3>
+        <p>A simple app to organise tasks</p>
+    </div>
+    <div class="project-card">
+        <h3>Weather App</h3>
+        <p>A app to display current weather information</p>
+    </div>
+    <a href="https://github.com/Maanya1-tech/SW_CSE_B1.4_Internship">Git hub link</a>
+    <a href="https://www.linkedin.com/in/maanya-d-7111b637b?utm_source=share_via&utm_content=profile&utm_medium=member_android">Link for linkedin</a>
+    <ol>
+        <li>10th in Claret learnt Java</li>
+        <li>12th in Claret learnt C</li>
+        <li>B.Tech in Computer Science at RUAS learnt HTML, CSS</li>
+        <li>Learnt Python</li>
+        <li> Mastering C language</li>
+    </ol>
+    </section>
 
     <!-- Footer -->
     <footer>
