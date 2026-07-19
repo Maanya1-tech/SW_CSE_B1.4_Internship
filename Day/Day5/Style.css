@@ -1,0 +1,79 @@
+ *{
+             box-sizing: border-box;
+             
+             margin:0;
+             padding:0;
+            
+        }
+        :root {
+            --primary-color:#2563eb;
+            --sceondary-color:#38bdf8;
+            --background-color:#f8fafc;
+            --background-color2:aqua;
+            --text-color:#1f2937;
+            --heading-color:#111827;
+            --font-family:Arial, sans-serif;
+        }
+        body {
+             background-color:var(--background-color);
+             color:var(--text-color);
+             font-family:var(--font-family);
+        }
+        header{
+          text-align: center;
+          background-color: aliceblue;
+        }
+        nav {
+          color:Black;
+          text-decoration: none;
+          background-color: var(--background-color2);
+          
+          padding:30px;
+          border-radius: 10px;
+           box-shadow:0 0 8px rgba(0,0,0,.2)
+        }
+        nav a{
+            color:black;
+            text-decoration:none;
+            margin:10px;
+            font-weight:bold;
+        }
+        #hero{
+          background-color: var(--sceondary-color);
+          padding:30px;
+          border-radius:10px;
+           box-shadow:0 0 8px rgba(0,0,0,.2)
+        }
+        #about{
+          background-color: #042a7c;
+          color:#f8fafc;
+        }
+        #skills{
+          background-color: #111827;
+          color:rgb(219, 228, 236);
+        }
+        #projects{
+          background-color: #c1d7e4;
+          color:rgb(3, 30, 55)
+        }
+        .contact{
+          background-color: #102645;
+          color:beige;
+        }
+        h1{
+          color:var(--heading-color);
+        }
+        #video{
+          background-color: #024d6d;
+          
+        }
+        #info{
+          background-color: #4f6170;
+          color:#1e1f21
+        }
+        footer{
+          background-color: #d2e1e8;
+        }
+        img{
+          border-radius:50%;
+        }
