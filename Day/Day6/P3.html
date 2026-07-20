@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Overflow and Wrapping</title>
+    <style>
+        h1{
+            background-color: bisque;
+
+        }
+        p{
+            color: blue;
+            overflow: hidden;
+        }
+        .container{
+            width:80px;
+            height:30px;
+            background-color: aqua;
+        }
+        .container-visible {
+            overflow: visible;
+        }
+
+        .container-hidden {
+            overflow: hidden;
+        }
+
+        .container-scroll {
+            overflow: scroll;
+        }
+
+        .container-auto {
+            overflow: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Text Overflow and Wrapping</p>
+    <p>Background-color, color</p>
+    <h1>Heading 1</h1>
+        <p class="container container-auto">This is Paragraph 1</p>
+    <p class="container container-hidden">This is Paragraph 1</p>
+    <p class="container container-scroll">This is Paragraph 1</p>
+    <p class="container container-visible">This is Paragraph 1</p>
+    
+</body>
+</html>
